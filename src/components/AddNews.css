@@ -1,0 +1,73 @@
+.add-news-form {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-news-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.add-news-form label {
+  display: block;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.add-news-form input[type="text"],
+.add-news-form input[type="date"],
+.add-news-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.add-news-form input[type="text"]:focus,
+.add-news-form input[type="date"]:focus,
+.add-news-form textarea:focus {
+  border-color: #4caf50;
+}
+
+.add-news-form textarea {
+  resize: none;
+}
+
+.add-news-form button {
+  display: inline-block;
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.add-news-form button:hover {
+  background-color: #45a049;
+}
+
+.add-news-form button[type="submit"] {
+  display: block;
+  width: 100%;
+}
+
+.add-news-form button:focus {
+  outline: none;
+}

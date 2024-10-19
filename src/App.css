@@ -1,0 +1,85 @@
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec); /* Soft gradient */
+  min-height: 100vh; /* Ensures it covers the entire viewport */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #4f6d7a; /* Darker blue-gray background */
+  color: white;
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  margin-bottom: 40px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.App-header h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.App-header:hover {
+  transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.NewsList {
+  max-width: 1200px; /* Limits the width for a clean look */
+  width: 100%;
+  padding: 0 20px;
+}
+
+.app-container header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+}
+
+.app-container nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.app-container nav a:hover {
+  text-decoration: underline;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+nav a i {
+  color: white;
+  transition: transform 0.2s;
+}
+
+nav a i:hover {
+  transform: scale(1.2); /* Add a hover effect to make the icon larger on hover */
+}
+
+h1 {
+  margin: 0;
+}
